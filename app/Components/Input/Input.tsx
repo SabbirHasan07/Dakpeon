@@ -43,7 +43,6 @@ const Input: React.FC<InputProps> =({
                  {...register(id,{required})}
                  className={clsx(`
                  form-input
-                 justify-start
                  block
                  w-full
                  rounded-md
